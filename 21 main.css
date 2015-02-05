@@ -1,0 +1,26 @@
+body{
+	text-align: center;
+}
+#box{
+	display: block;
+	width: 500px;
+	margin: 50px auto;
+	padding: 15px;
+	text-align: center;
+	border: 1px solid blue;
+	/*background: orange; */
+	-webkit-border-radius:25px;
+	/*-webkit-box-shadow: rgb(100,100,100) 5px 5px 8px inset; */
+	/*-webkit-box-shadow: rgb(100,100,100) 5px 5px 8px;*/
+	/*below is gradient*/
+	/*background: -webkit-linear-gradient(top,black,white);*/
+	/*background: -webkit-linear-gradient(45deg,black,white);*/
+	/*background: -webkit-radial-gradient(center, circle, red 0%, orange 50%);*/
+	background: -webkit-radial-gradient(center, circle, red 0%, orange 50%);
+	/*below is alpha = transparency of shadow*/
+	-webkit-box-shadow: rgba(100,100,100,.6) 8px 8px 5px;
+}
+#text{
+	font: bold 30px Century;
+	text-shadow: rgb(100,100,100) 3px 3px 5px;
+}

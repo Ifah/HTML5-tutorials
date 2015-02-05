@@ -1,0 +1,30 @@
+#tuna{color: red;}/*id of tuna -- exampe <p id="tuna">One</p> */
+
+
+.tuna{color: red;}/*class of tuna -- exampe <p class="tuna">One</p> */
+
+
+p.tuna{color: red;}/*class of tuna but has to be a paragraph-- exampe <p class="tuna">One</p> */
+
+
+/*CSS3*/
+/*attribute selector*/
+p[name]{color: blue;} /*any paragraph with attribute name affected -- example <p name="larry">hello</p> */
+
+
+p[name="bucky"]{color: blue;} /*any paragraph with attibute name="bucky" affected -- example <p name="bucky">hello</p> */
+
+
+/*regular expressions in CCS3*/
+
+/*
+		<p name="baconsub">One</p>
+		<p name="mybacon">Two</p>
+		<p name="omgbacontuna">Three</p>
+*/
+p[name^="bacon"]{color: blue;} /*any paragraph with attribute name value starting "bacon" affected -- example <p name="baconsub">One</p> */
+
+p[name$="bacon"]{color: blue;} /*any paragraph with attribute name value ending "bacon" affected -- example <p name="mybacon">Two</p> */
+
+p[name*="bacon"]{color: blue;} /*any paragraph with attribute name value "bacon" anywhere affected -- example <p name="mybacon">Two</p> */
+

@@ -1,0 +1,9 @@
+/* any of the paragraphs that has div as parent 
+div > p{color: green;}
+*/
+
+/* only applies the rule to any paragraph that immediately follows a paragraph of class bucky and same parent
+p.bucky + p{color: blue;}
+*/
+/* only applies the rule to any paragraph of class bucky and same parent but does not need to follow immediately*/
+p.bucky ~ p{color: blue;}

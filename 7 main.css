@@ -1,0 +1,4 @@
+/* asterix means apply to all tags */
+*{color: blue;}
+
+:not(.bucky){color: red;}
